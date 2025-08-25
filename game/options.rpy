@@ -122,7 +122,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## infinito; cualquier otro número indica el número de caracteres por segundo
 ## que se mostrarán.
 
-default preferences.text_cps = 25
+default preferences.text_cps = 20
 
 
 ## El retraso por defecto del auto-avance. Números más grandes indican esperas

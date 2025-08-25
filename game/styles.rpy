@@ -1,13 +1,14 @@
 init python:
-    # 🔤 Estilo personalizado para texto entre escenas
     style.carta_nvl_text = Style(style.nvl_text)
-    style.carta_nvl_text.size = 30  # Tamaño de fuente
-    style.carta_nvl_text.line_spacing = 2  # Espacio entre líneas dentro del bloque
-    style.carta_nvl_text.color = "#e8e8e8"  # Color suave para papel
-    #style.carta_nvl_text.font = "fonts/DancingScript-Regular.ttf" 
+    style.carta_nvl_text.size = 30                # Tamaño de fuente
+    style.carta_nvl_text.line_spacing = 12        # Espaciado entre líneas
+    style.carta_nvl_text.color = "#000000"        # Color de texto (negro suave)
+    style.carta_nvl_text.font = "fonts/DancingScript-Medium.ttf"
+    style.carta_nvl_text.xmargin = 70             # Márgenes laterales
+    style.carta_nvl_text.ymargin = 35             # Márgenes arriba/abajo
 
-    # 📏 Reduce espacio entre bloques nvl consecutivos
-    style.nvl_vbox.box_spacing = 2  # Por defecto suele estar entre 15–20
+    # Espacio entre párrafos NVL
+    style.nvl_vbox.box_spacing = 25  
 
-    # (Opcional) Aplicar un fondo de carta solo al NVL
-    # style.nvl_window.background = Frame("gui/carta_fondo.png", 50, 50)
+    # Fondo de la ventana NVL
+    style.nvl_window.background = Frame("gui/nvl.png", 50, 50)

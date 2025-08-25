@@ -2,12 +2,13 @@ label intro_1:
 
     window hide
     stop music fadeout 1.0
-    scene bg pantalla_negra with fade
+    #scene bg pantalla_negra with fade
     #play music "audio/tension_suave.mp3" fadein 2.0
     $ preferences.text_cps = 15  # Restaura texto instantáneo
 
-    window show
+    
     nvl clear
+    window auto
 
     #nvl_narrator "{burningforbigtext}Un fuego rojo grande consume estas letras.{/burningforbigtext}"
     #nvl_narrator "{burningforsmalltext}Fuego para letras más pequeñas.{/burningforsmalltext}"
@@ -35,9 +36,11 @@ label intro_1:
     #nvl_narrator "{blackout}Texto censurado en negro.{/blackout}"
     #nvl_narrator "{purple}Texto con fuego púrpura.{/purple}"
 
-    nvl_narrator "{=carta_nvl_text}{static}\nAhora solo somos tu y yo en este lugar ¿eh?....\nNo necesitas responder por ahora.{/static}"
-    nvl_narrator "{=carta_nvl_text}{static}Sé que no te gusta el silencio...ya que significa quedarte a solas conmigo. Entiendo.. por ahora intenta descansar. Hare lo mejor que pueda ¿vale?{/static}"
-    nvl_narrator "{=carta_nvl_text}{redactedglitch}Pero no siempre sere capaz de esconder tus miedos{/redactedglitch}"
+    nvl_narrator "{=carta_nvl_text}{static}\nAhora solo somos tu y yo en este lugar ¿eh?...No necesitas responder por ahora.{/static}"
+    nvl_narrator "{=carta_nvl_text}{static}\nSé que no te gusta el silencio...ya que significa quedarte a solas conmigo.{/static}"
+    nvl_narrator "{=carta_nvl_text}{static}\nEntiendo.. por ahora intenta descansar. Hare lo mejor que pueda ¿vale?{/static}"
+    nvl_narrator "{=carta_nvl_text}{reversed}\nPero no siempre sere capaz de esconder tus miedos.{/reversed}"
+    nvl_narrator "{=carta_nvl_text}{=carta_nvl_text}"
     
 window hide
 return

@@ -29,10 +29,10 @@ define config.check_conflicting_properties = True
 define gui.accent_color = '#99ccff'
 
 ## El color del botón de texto cuando no está seleccionado ni enfocado.
-define gui.idle_color = '#888888'
+define gui.idle_color = '#393838'
 
 ## El color 'small' se usa para el texto pequeño, que necesita destacar más.
-define gui.idle_small_color = '#aaaaaa'
+define gui.idle_small_color = '#737373'
 
 ## El color usado en botones y barras que ganan foco.
 define gui.hover_color = '#c1e0ff'
@@ -42,7 +42,7 @@ define gui.hover_color = '#c1e0ff'
 define gui.selected_color = '#ffffff'
 
 ## El color de los botones de texto que no pueden ser seleccionados.
-define gui.insensitive_color = '#8888887f'
+define gui.insensitive_color = '#6f6f6f7f'
 
 ## Colores de la parte vacía de las barras. No se usan directamente, sino en la
 ## regeneración de las imágenes de barra.
@@ -50,32 +50,32 @@ define gui.muted_color = '#3d5166'
 define gui.hover_muted_color = '#5b7a99'
 
 ## Colores del texto del diálogo y menú.
-define gui.text_color = '#ffffff'
+define gui.text_color = '#323131'
 define gui.interface_text_color = '#ffffff'
 
 
 ## Tipos y tamaños de letra ####################################################
 
 ## El tipo de letra del texto del juego
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "fonts/Grandstander-Medium.ttf"
 
 ## El tipo de letra de los nombres de personajes
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "fonts/Grandstander-ExtraLight.ttf"
 
 ## El tipo de letra del texto externo al juego.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "fonts/Grandstander-Regular.ttf"
 
 ## El tamaño normal del texto del diálogo.
-define gui.text_size = 33
+define gui.text_size = 30
 
 ## El tamaño de los nombres de los personajes
-define gui.name_text_size = 45
+define gui.name_text_size = 35
 
 ## El tamaño del texto en la interfaz.
-define gui.interface_text_size = 33
+define gui.interface_text_size = 30
 
 ## El tamaño de etiquetas en la interfaz.
-define gui.label_text_size = 36
+define gui.label_text_size = 30
 
 ## El tamaño del texto en las notificaciones.
 define gui.notify_text_size = 24
@@ -377,7 +377,7 @@ define gui.nvl_list_length = 6
 
 ## Altura de una entrada en modo NVL. Ajusta a 'None' para que las entradas
 ## ajusten la altura dinámicamente.
-define gui.nvl_height = 173
+define gui.nvl_height = 50
 
 ## Espacio entre entradas en modo NVL cuando 'gui.nvl_height' es None, y entre
 ## las entradas en modo NVL y el menú en modo NVL.
@@ -391,16 +391,16 @@ define gui.nvl_name_width = 225
 define gui.nvl_name_xalign = 1.0
 
 ## Posición, anchura y alineación del texto del diálogo.
-define gui.nvl_text_xpos = 675
+define gui.nvl_text_xpos = 600
 define gui.nvl_text_ypos = 12
 define gui.nvl_text_width = 885
 define gui.nvl_text_xalign = 0.0
 
 ## Posición, anchura y alineación del texto 'nvl_thought' (texto dicho por el
 ## personaje 'nvl_narrator').
-define gui.nvl_thought_xpos = 360
+define gui.nvl_thought_xpos = 500
 define gui.nvl_thought_ypos = 0
-define gui.nvl_thought_width = 1170
+define gui.nvl_thought_width = 1000
 define gui.nvl_thought_xalign = 0.0
 
 ## Posición de los botones de menú NVL.

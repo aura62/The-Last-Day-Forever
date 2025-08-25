@@ -2,9 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 92: expected 'label_name' not found.
-    jump 
-        ^
+File "game/styles.rpy", line 7: invalid syntax
+    style.carta_nvl_text.xmargin =              
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Fri Aug 22 12:31:58 2025
+Mon Aug 25 17:21:05 2025
