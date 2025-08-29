@@ -1,2 +1,3 @@
-$ opc = 0
-$ rsp = 0
+init python:
+    opc = 0
+    rsp = 0

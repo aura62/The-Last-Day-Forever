@@ -8,7 +8,7 @@ label parque:
     pause 1.0
     stop music fadeout 1.0
     pause 0.5
-    play music ("audio/BGM/Paweł Feszczuk - How it's done.mp3",) fadein 0.5
+    play music ("audio/BGM/Pawel_Feszczuk_How_Its_Done.mp3",) fadein 0.5
     p "Ni si quiera pude ver hacia donde se fue.."
     "Voy a quedarme aquí un momento y lo esperare."
     "Dijo que me invitaria a comer algo asi que seguro no tarda en venir."

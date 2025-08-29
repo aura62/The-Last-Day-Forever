@@ -24,7 +24,6 @@ image bg parknchairs = "bg/downtown/park.jpg"
 image bg smallpark = "bg/downtown/smallpark.jpg"
 image bg street = "bg/downtown/street.jpg"
 image bg bedroom = "bg/day_house/single_bedroom.jpg"
-image bg carta_papel = "bg/carta_papel.png"
 image bg pantalla_negra = "bg/pantalla_negra.png"
 image bg cafeteria = "bg/downtown/table.jpg"
 

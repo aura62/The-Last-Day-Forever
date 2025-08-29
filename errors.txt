@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 132: expected statement.
-    pau
-       ^
+File "game/variables.rpy", line 2: invalid syntax
+    $ opc = 0
+     ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Fri Aug 29 19:54:51 2025
+Fri Aug 29 20:06:02 2025

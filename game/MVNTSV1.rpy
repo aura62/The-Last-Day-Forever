@@ -1,4 +1,4 @@
-init -1500 python:
+init -999 python:
 
     TcommonVars ="""
     uniform float u_lod_bias;
