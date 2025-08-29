@@ -1,63 +1,63 @@
-renpy.texture textshader.typewriter textshader.CthonicGlitch renpy.texture textshader.typewriter textshader.CthonicGlitch
-renpy.texture textshader.typewriter textshader.ColorSweep renpy.texture textshader.typewriter textshader.ColorSweep
-renpy.geometry renpy.texture textshader.HollowGlow textshader.typewriter
-renpy.texture textshader.typewriter textshader.RedactedGlitch renpy.texture textshader.typewriter textshader.RedactedGlitch
-renpy.geometry renpy.texture textshader.Flipped textshader.typewriter
-renpy.texture textshader.typewriter textshader.Prey renpy.texture textshader.typewriter textshader.Prey
-renpy.geometry renpy.texture textshader.TextShadow textshader.typewriter
-renpy.geometry renpy.texture textshader.HighlightSimple textshader.typewriter
-renpy.texture textshader.typewriter textshader.Reversed renpy.texture textshader.typewriter textshader.Reversed
-renpy.texture textshader.typewriter textshader.HighlightRecolor renpy.texture textshader.typewriter textshader.HighlightRecolor
-renpy.geometry renpy.texture textshader.typewriter
-renpy.texture textshader.typewriter textshader.TextShadow renpy.texture textshader.typewriter textshader.TextShadow
-renpy.dissolve renpy.dissolve
-renpy.texture
-renpy.texture textshader.typewriter textshader.Gradient renpy.texture textshader.typewriter textshader.Gradient
-renpy.geometry renpy.texture textshader.Static textshader.typewriter
-renpy.texture textshader.typewriter textshader.CthonicGlitchColor renpy.texture textshader.typewriter textshader.CthonicGlitchColor
-renpy.geometry renpy.texture textshader.BurningForBigText textshader.typewriter
-renpy.geometry renpy.texture textshader.RedAlert textshader.typewriter
-renpy.texture textshader.typewriter textshader.BurningForSmallText renpy.texture textshader.typewriter textshader.BurningForSmallText
-renpy.geometry renpy.texture textshader.RedactedSimple textshader.typewriter
-renpy.texture textshader.typewriter textshader.CthonicJitter renpy.texture textshader.typewriter textshader.CthonicJitter
-renpy.alpha renpy.geometry renpy.texture textshader.typewriter
-renpy.geometry renpy.texture textshader.CthonicGlitch textshader.typewriter
-renpy.geometry renpy.texture textshader.AdjustableBurnDemo textshader.typewriter
-renpy.geometry renpy.texture textshader.Gradient textshader.typewriter
-renpy.geometry renpy.texture textshader.ColorSweep textshader.typewriter
 renpy.geometry renpy.texture textshader.BlueBurnSmall textshader.typewriter
+renpy.solid
+renpy.dissolve renpy.dissolve
+renpy.geometry renpy.texture textshader.GoldSweep textshader.typewriter
+renpy.geometry renpy.texture textshader.AdjustableBurnDemo textshader.typewriter
+renpy.texture textshader.typewriter textshader.RedAlert renpy.texture textshader.typewriter textshader.RedAlert
+renpy.texture textshader.typewriter textshader.TextShadow renpy.texture textshader.typewriter textshader.TextShadow
+renpy.geometry renpy.texture textshader.HollowGlow textshader.typewriter
+renpy.geometry renpy.texture textshader.CthonicGlitchColor textshader.typewriter
+renpy.texture textshader.typewriter textshader.GhostWrite renpy.texture textshader.typewriter textshader.GhostWrite
+renpy.geometry renpy.texture textshader.Reversed textshader.typewriter
+renpy.texture textshader.typewriter textshader.Glow renpy.texture textshader.typewriter textshader.Glow
+renpy.texture textshader.typewriter textshader.Static renpy.texture textshader.typewriter textshader.Static
+renpy.texture textshader.typewriter textshader.RedactedGlitch renpy.texture textshader.typewriter textshader.RedactedGlitch
+renpy.alpha renpy.geometry renpy.texture textshader.typewriter
+renpy.texture textshader.typewriter textshader.AdjustableBurnDemo renpy.texture textshader.typewriter textshader.AdjustableBurnDemo
+renpy.texture textshader.typewriter textshader.BurningForBigText renpy.texture textshader.typewriter textshader.BurningForBigText
+renpy.geometry renpy.texture textshader.GhostWrite textshader.typewriter
+renpy.texture textshader.typewriter textshader.HighlightSimple renpy.texture textshader.typewriter textshader.HighlightSimple
+renpy.geometry renpy.texture textshader.Flipped textshader.typewriter
+renpy.texture
+renpy.texture textshader.typewriter textshader.ColorSweep renpy.texture textshader.typewriter textshader.ColorSweep
+renpy.texture textshader.typewriter textshader.Prey renpy.texture textshader.typewriter textshader.Prey
+renpy.geometry renpy.texture textshader.Gradient textshader.typewriter
+renpy.geometry renpy.texture textshader.RedAlert textshader.typewriter
+renpy.geometry renpy.texture textshader.ColorSweep textshader.typewriter
+renpy.texture textshader.typewriter textshader.HighlightRecolor renpy.texture textshader.typewriter textshader.HighlightRecolor
 renpy.geometry renpy.solid
 renpy.geometry renpy.texture textshader.CthonicJitter textshader.typewriter
 renpy.geometry renpy.texture textshader.Prey textshader.typewriter
-renpy.geometry renpy.texture textshader.GhostWrite textshader.typewriter
-renpy.texture textshader.typewriter renpy.texture textshader.typewriter
-renpy.texture textshader.typewriter textshader.Glow renpy.texture textshader.typewriter textshader.Glow
-renpy.texture textshader.typewriter textshader.HollowGlow renpy.texture textshader.typewriter textshader.HollowGlow
-renpy.texture textshader.typewriter textshader.RedactedSimple renpy.texture textshader.typewriter textshader.RedactedSimple
-renpy.texture textshader.typewriter textshader.BlueBurnSmall renpy.texture textshader.typewriter textshader.BlueBurnSmall
-renpy.geometry renpy.texture textshader.gradientglow textshader.typewriter
-renpy.texture textshader.typewriter textshader.GhostWrite renpy.texture textshader.typewriter textshader.GhostWrite
-renpy.geometry renpy.texture textshader.CthonicGlitchColor textshader.typewriter
-renpy.texture textshader.typewriter textshader.AdjustableBurnDemo renpy.texture textshader.typewriter textshader.AdjustableBurnDemo
-renpy.texture textshader.typewriter textshader.HighlightSimple renpy.texture textshader.typewriter textshader.HighlightSimple
-renpy.geometry renpy.texture textshader.HighlightRecolor textshader.typewriter
-renpy.texture textshader.typewriter textshader.BlueBurnBig renpy.texture textshader.typewriter textshader.BlueBurnBig
-renpy.alpha renpy.texture textshader.typewriter renpy.texture textshader.typewriter
-renpy.texture textshader.typewriter textshader.BurningForBigText renpy.texture textshader.typewriter textshader.BurningForBigText
-renpy.texture textshader.typewriter textshader.gradientglow renpy.texture textshader.typewriter textshader.gradientglow
-renpy.dissolve renpy.geometry
 renpy.texture textshader.typewriter textshader.Cthonic renpy.texture textshader.typewriter textshader.Cthonic
-renpy.geometry renpy.texture
-renpy.geometry renpy.texture textshader.Cthonic textshader.typewriter
-renpy.solid
-renpy.geometry renpy.texture textshader.RedactedGlitch textshader.typewriter
-renpy.geometry renpy.texture textshader.Reversed textshader.typewriter
-renpy.texture textshader.typewriter textshader.GoldSweep renpy.texture textshader.typewriter textshader.GoldSweep
-renpy.texture textshader.typewriter textshader.Static renpy.texture textshader.typewriter textshader.Static
-renpy.ftl
-renpy.texture textshader.typewriter textshader.Flipped renpy.texture textshader.typewriter textshader.Flipped
-renpy.geometry renpy.texture textshader.BurningForSmallText textshader.typewriter
-renpy.geometry renpy.texture textshader.Glow textshader.typewriter
-renpy.texture textshader.typewriter textshader.RedAlert renpy.texture textshader.typewriter textshader.RedAlert
-renpy.geometry renpy.texture textshader.GoldSweep textshader.typewriter
+renpy.texture textshader.typewriter textshader.CthonicJitter renpy.texture textshader.typewriter textshader.CthonicJitter
+renpy.texture textshader.typewriter renpy.texture textshader.typewriter
+renpy.geometry renpy.texture textshader.Static textshader.typewriter
+renpy.texture textshader.typewriter textshader.Gradient renpy.texture textshader.typewriter textshader.Gradient
 renpy.geometry renpy.texture textshader.BlueBurnBig textshader.typewriter
+renpy.geometry renpy.texture textshader.gradientglow textshader.typewriter
+renpy.texture textshader.typewriter textshader.RedactedSimple renpy.texture textshader.typewriter textshader.RedactedSimple
+renpy.texture textshader.typewriter textshader.CthonicGlitch renpy.texture textshader.typewriter textshader.CthonicGlitch
+renpy.dissolve renpy.geometry
+renpy.texture textshader.typewriter textshader.BlueBurnBig renpy.texture textshader.typewriter textshader.BlueBurnBig
+renpy.geometry renpy.texture textshader.HighlightSimple textshader.typewriter
+renpy.geometry renpy.texture
+renpy.geometry renpy.texture textshader.BurningForBigText textshader.typewriter
+renpy.geometry renpy.texture textshader.CthonicGlitch textshader.typewriter
+renpy.texture textshader.typewriter textshader.CthonicGlitchColor renpy.texture textshader.typewriter textshader.CthonicGlitchColor
+renpy.geometry renpy.texture textshader.Cthonic textshader.typewriter
+renpy.texture textshader.typewriter textshader.BlueBurnSmall renpy.texture textshader.typewriter textshader.BlueBurnSmall
+renpy.geometry renpy.texture textshader.HighlightRecolor textshader.typewriter
+renpy.alpha renpy.texture textshader.typewriter renpy.texture textshader.typewriter
+renpy.texture textshader.typewriter textshader.HollowGlow renpy.texture textshader.typewriter textshader.HollowGlow
+renpy.texture textshader.typewriter textshader.BurningForSmallText renpy.texture textshader.typewriter textshader.BurningForSmallText
+renpy.geometry renpy.texture textshader.RedactedGlitch textshader.typewriter
+renpy.texture textshader.typewriter textshader.Reversed renpy.texture textshader.typewriter textshader.Reversed
+renpy.geometry renpy.texture textshader.typewriter
+renpy.texture textshader.typewriter textshader.gradientglow renpy.texture textshader.typewriter textshader.gradientglow
+renpy.geometry renpy.texture textshader.Glow textshader.typewriter
+renpy.texture textshader.typewriter textshader.Flipped renpy.texture textshader.typewriter textshader.Flipped
+renpy.texture textshader.typewriter textshader.GoldSweep renpy.texture textshader.typewriter textshader.GoldSweep
+renpy.geometry renpy.texture textshader.BurningForSmallText textshader.typewriter
+renpy.geometry renpy.texture textshader.TextShadow textshader.typewriter
+renpy.ftl
+renpy.geometry renpy.texture textshader.RedactedSimple textshader.typewriter

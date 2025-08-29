@@ -6,14 +6,14 @@ transform left_small:
     yalign 0.1
 
 transform right_small:
-    zoom 0.6
+    zoom 0.4
     xalign 0.9
-    yalign 1.0
+    yalign 0.1
 
 transform center_zoomed:
-    zoom 2.0
-    xalign 2.0
-    yalign 2.0
+    zoom 0.4
+    xalign 0.5
+    yalign 0.1
 
 # Fondo
 image bg street = "bg/downtown/street.jpg"
@@ -26,6 +26,7 @@ image bg street = "bg/downtown/street.jpg"
 image bg bedroom = "bg/day_house/single_bedroom.jpg"
 image bg carta_papel = "bg/carta_papel.png"
 image bg pantalla_negra = "bg/pantalla_negra.png"
+image bg cafeteria = "bg/downtown/table.jpg"
 
 
 # Sprites
