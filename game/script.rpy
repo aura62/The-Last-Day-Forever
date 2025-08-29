@@ -21,7 +21,9 @@ label intro:
     # 'images'.
 
     scene bg street with fundido_suave
-    #show kieran nsmile at left_small with dissolve
+    stop music fadeout 1.0
+    pause 1.0
+    play music ("audio/BGM/Mr Smith - First Rays.mp3",) fadein 0.5
 
     # Presenta las líneas del diálogo.
 
@@ -33,11 +35,13 @@ label intro:
     show kieran nsmile at center_zoomed with fundido_suave
     show kieran surprised at left_small with moveinleft
     "¿Este chico ha aparecido de repente?"
-    k "Hola, [player_name]"
+    show kieran nsmile
+    k "Hola, [player_name]."
     k "¡Soy Kieran!"
     k "Al fin nos conocemos en persona."
 
     p "¿[player_name]?"
+    show kieran blush
     k "Sí..ese es tu nombre ¿no?"
 
     menu confNombre:
@@ -47,7 +51,9 @@ label intro:
                 p "Olvida lo que dije Kieran."
             "No":
                 p "De hecho solo es un apodo."
+                show kieran angry
                 k "¡Oh! Eso es una sopresa... no recuerdo que me lo hayas dicho pero esta bien."
+                show kieran nsmile
                 k "¿Como deberia de llamarte?"
                 $ player_name = renpy.input("Mi nombre es")
 
@@ -88,13 +94,17 @@ label ch_cafeteria:
 label conversacion:
     
     show kieran nsmile
-    k "Pues tienes razón, si que ha servido para matar el tiempo."
+    k "Esta ha sido la mejor forma de matar el tiempo..¿no crees?"
+    p "Ya lo creo pero..."
     p "¿Kieran?"
-    show kieran shy
+    show kieran blush
     k "Dime.."
     p "¿Tu me habias dicho tu nombre antes?"
+    pause 0.5
+    stop music fadeout 1.0
     k "...."
     show kieran sad with fade_texto
+    play music ("audio/BGM/Pamela Yuen - Nostalgia.mp3",) fadein 0.5
     k "No, en realidad no."
     show kieran pout with fade_texto
     k "Pero no deberias de preocuparte."
@@ -116,10 +126,11 @@ label conversacion:
     pause 0.5
     p "No, gracias a ti. Hacia dias que no tenia un buen descanso."
     p "Tengo fe que nos volveremos a ver así que no dire adios.."
+    show kieran surprised with fade_texto
     p "¡Hasta pronto Kieran!"
     show kieran surprised with fade_texto
-    pause 1.0
-    show kieran shy with fade_texto
+    pause 0.1
+    show kieran nsmile with fade_texto
     k "Hasta pronto, [player_name]"
 
     # Finaliza el juego:

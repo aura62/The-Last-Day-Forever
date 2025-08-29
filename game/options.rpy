@@ -13,7 +13,7 @@
 ##
 ## El _() que rodea la cadena de texto la señala como traducible.
 
-define config.name = _("The Last Day Forever")
+define config.name = _("Somnia")
 
 
 ## Determina si el título dado más arriba se muestra en el menú principal.
@@ -38,7 +38,7 @@ define gui.about = _p("""
 ## Debe contener solo carácteres ASCII, sin espacios, comas o puntos y coma.
 
 define config.default_textshader = "typewriter"
-define build.name = "TheLastDayForever"
+define build.name = "Somnia"
 
 
 ## Sonidos y música ############################################################
@@ -199,6 +199,8 @@ init python:
 
     build.documentation('*.html')
     build.documentation('*.txt')
+
+    config.main_menu_music = "audio/BGM/Kate Kody - Butterfly.mp3"
 
 
 ## Se necesita una clave de licencia de Google Play para realizar compras dentro

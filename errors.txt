@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 37: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        k al fin nos conocemos en persona."
+File "game/script.rpy", line 132: expected statement.
+    pau
+       ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Fri Aug 29 12:44:47 2025
+Fri Aug 29 19:54:51 2025
