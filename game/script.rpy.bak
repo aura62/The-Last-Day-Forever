@@ -10,7 +10,7 @@ label start:
     scene bg pantalla_negra with dissolve
     pause 0.5
 
-    call intro_1 from _call_intro_1
+    call intro_1
     pause 0.3
     jump intro
 

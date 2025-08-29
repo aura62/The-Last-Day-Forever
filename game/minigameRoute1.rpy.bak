@@ -19,7 +19,7 @@ label preguntas:
     p "¿Qué cosita es?"
     k "Blanco con petalos en forma de campana."
     "¿Que podria ser?"
-    call imagemap_example from _call_imagemap_example
+    call imagemap_example
 
     label pr2:
     $ rsp = 2
@@ -31,7 +31,7 @@ label preguntas:
     p "¿Qué cosita es?"
     k "Un animal con cresta en la cien, vuela y probablemente tiene un amigo mapache.."
     "¿Que podra ser?"
-    call imagemap_example from _call_imagemap_example_1
+    call imagemap_example
 
     label pr3:
     $ rsp = 3
@@ -43,7 +43,7 @@ label preguntas:
     p "¿Qué cosita es?"
     k "Tiene el pecho blanco, capaz de encontrar su camino de vuelta a casa con un vuelo de paz."
     "¿Que podra ser?"
-    call imagemap_example from _call_imagemap_example_2
+    call imagemap_example
 
     label pr4:
     $ rsp = 4
@@ -55,7 +55,7 @@ label preguntas:
     p "¿Qué cosita es?"
     k "Un secreto teñido de flor, imposible de hallar en un jardin."
     "¿Que podra ser?"
-    call imagemap_example from _call_imagemap_example_3
+    call imagemap_example
 
     return
 

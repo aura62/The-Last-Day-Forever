@@ -37,7 +37,7 @@ label parque:
     p "¿Quieres jugar a veo veo para matar el tiempo?"
     show kieran nsmile
     k "¡Claro!"
-    call preguntas from _call_preguntas
+    call preguntas
     jump conversacion
 
 label cafeteria:
@@ -49,7 +49,7 @@ label cafeteria:
     scene bg cafeteria with fade_texto
     stop music fadeout 1.0
     pause 0.5
-    play music ("audio/BGM/Pawel_Feszczuk_How_Its_Done.mp3",) fadein 0.5
+    play music ("audio/BGM/Paweł Feszczuk - How it's done.mp3",) fadein 0.5
     show kieran nsmile at center_zoomed with fade_texto
     k "¡Hemos llegado!"
     p "A penas y pude seguirte el paso..."
