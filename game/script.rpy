@@ -132,7 +132,16 @@ label conversacion:
     pause 0.1
     show kieran nsmile with fade_texto
     k "Hasta pronto, [player_name]"
-
+    pause 0.5
+    stop music fadeout 1.0
+    scene bg pantalla_negra with fade_texto
+    "¡Hola!"
+    "Soy Auri. Este es mi primer proyecto en Renpy."
+    "Solo es una demostración de lo que se manejar con el motor para apoyar proyectos serios."
+    "Sí estas inseresada o interesado en mis servicios de programación, puedes contactarme en {a=https://x.com/auri_trashy}Twitter{/a}."
+    "¡Por ahora hago esto de forma voluntaria y sin costes!"
+    "Dicho eso. En la pestaña acerca de, se encuentra la acreditación por todos los recursos utilizados."
+    "¡Gracias por leer!"
     # Finaliza el juego:
 
     return

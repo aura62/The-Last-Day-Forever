@@ -565,6 +565,34 @@ screen about():
 
             text _("Hecho con {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
 
+            null height 15
+
+            label _("Créditos") xalign 0.5
+
+            null height 20
+
+            text " Música " size 28
+
+            text " - {a=https://freemusicarchive.org}Free Music Archive{/a}"
+            text " - How it's done by {a=https://freemusicarchive.org/music/pawel-feszczuk/}Pawel Feszczuk{/a}"
+            text " - Dark awakening by {a=https://freemusicarchive.org/music/malictusmusic/}malictusmusic{/a}"
+            text " - Butterfly by {a=https://freemusicarchive.org/music/kate-kody/}Kate Kody{/a}"
+            text " - Nostalgia by {a=https://freemusicarchive.org/music/kate-kody/}Pamela Yuen{/a}"
+            text " - First Rays by {a=https://freemusicarchive.org/music/mr-smith/}Mr Smith{/a}"
+
+            null height 25
+
+            text " Arte " size 28
+            text " - Dinner backgrounds and Downtown backgrounds by {a=https://spiralatlas.itch.io/}Spiral Atlas{/a}"
+            text " - Free food icons by {a=https://joblessmuppet.itch.io/}joblessmuppet{/a}"
+            text " - Kieran VN Sprites by {a=https://crxwes.itch.io/kieran-vn-sprite}Crows{/a}"
+            text " - Ren’Py Cook Guide by Shortycake"
+
+            null height 25
+
+            text " Plugins " size 28
+            text " - Ren’Py Text Effects and Shader Pack by {a=https://makevisualnovels.itch.io/}Stella{/a}"
+
 
 style about_label is gui_label
 style about_label_text is gui_label_text
