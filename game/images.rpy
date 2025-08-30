@@ -23,25 +23,11 @@ image bg park = "bg/downtown/park.jpg"
 image bg parknchairs = "bg/downtown/park.jpg"
 image bg smallpark = "bg/downtown/smallpark.jpg"
 image bg street = "bg/downtown/street.jpg"
-image bg bedroom = "bg/day_house/single_bedroom.jpg"
 image bg pantalla_negra = "bg/pantalla_negra.png"
 image bg cafeteria = "bg/downtown/table.jpg"
 
 
 # Sprites
-
-#personaje aion
-image aion angry = "ch/a/Male_Angry.png"
-image aion blush = "ch/a/Male_Blush.png"
-image aion confused = "ch/a/Male_Confused.png"
-image aion cry = "ch/a/Male_Cry.png"
-image aion disgust = "ch/a/Male_Disgust.png"
-image aion evil = "ch/a/Male_Evil.png"
-image aion happy = "ch/a/Male_Happy.png"
-image aion neutral = "ch/a/Male_Neutral.png"
-image aion sad = "ch/a/Male_Sad.png"
-image aion smile = "ch/a/Male_Smile.png"
-image aion surprised = "ch/a/Male_Surprised.png"
 
 #personaje Kieran
 image kieran angry = "ch/k/K_angry.png"
