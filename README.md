@@ -16,7 +16,7 @@ A continuación dejare los créditos de todos los recursos utilizados, tanto mul
  - Dark awakening by [malictusmusic](https://freemusicarchive.org/music/malictusmusic/)
  - Butterfly by [Kate Kody](https://freemusicarchive.org/music/kate-kody/)
  - Nostalgia by [Pamela Yuen](https://freemusicarchive.org/music/kate-kody/)
- - First Rays by [enter link description here](https://freemusicarchive.org/music/mr-smith/)
+ - First Rays by [Mr Smith](https://freemusicarchive.org/music/mr-smith/)
  
  **Arte**
 - Dinner backgrounds and Dowtown backgrounds by [Spiral Atlas](https://spiralatlas.itch.io/)
